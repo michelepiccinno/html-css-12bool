@@ -136,3 +136,20 @@
   margin-left: calc( (100% / 12) * 11);
 }
 
+/********MEDIA QUERY************/
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
+}
+
