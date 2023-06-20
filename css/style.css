@@ -1,0 +1,36 @@
+.container > section {
+  margin: 3rem 0;
+}
+
+.col,
+[class*="col-"] {
+  border: 1px solid white;
+  background-color: #006cfa;
+  min-height: 50px;
+}
+
+.col>.row,
+[class*="col-"]>.row {
+  padding: 1rem;
+}
+
+/****ASSEGNA IL BACKGROUND COLOR *****/
+.col>.row>.col,
+[class*="col-"] > .row > [class*="col-"] {
+  background-color: #00e165;
+  border: 1px solid #006cfa;
+}
+
+
+section>.row>.col,
+[class*="col-"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/*****RESETTO IL FLEX SULLE COL PADRI DELLE ROW CHE CONTENGONO LE COL NEXTED****/
+.no-flex{
+  display: block;
+}
