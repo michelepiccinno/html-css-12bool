@@ -1,0 +1,31 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container > section {
+  margin: 3rem 0;
+}
+
+.col,
+[class*="col-"] {
+  min-height: 50px;
+}
+
+/****UTILITIES CLASS***/
+.col-red {
+  background-color: #fe0000;
+}
+
+.col-blu {
+  background-color: #315496;
+}
+
+.col-yellow {
+  background-color: #ffc100;
+}
+
+.col-orange {
+  background-color: #ec7e2e;;
+}
+
